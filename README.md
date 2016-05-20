@@ -1,8 +1,11 @@
 # LocalGovCode
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/local_gov_code`. To experiment with that code, run `bin/console` for an interactive prompt.
+全国地方公共団体コードを収録したgem。
 
-TODO: Delete this and the text above, and describe your gem
+データソースは[総務省HP](http://www.soumu.go.jp/denshijiti/code.html)（平成28年5月21日閲覧）。
+
+* 都道府県コード及び市区町村コードは平成26年4月5日現在のもの。
+* 一部事務組合等コードは平成28年4月13日現在のもの。
 
 ## Installation
 
@@ -32,10 +35,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/local_gov_code.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cxn03651/local_gov_code.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
