@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{全国地方公共団体コードを取り扱うgemです。平成26年4月5日現在データによります。}
   spec.description   = %q{全国地方公共団体コードを取り扱うgemです。平成26年4月5日現在データによります。}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/cxn03651/local_gov_code#readme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
