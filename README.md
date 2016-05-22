@@ -81,6 +81,14 @@ LocalGovインスタンスからは、市区町村コード、都道府県名、
 
     # find_by_fullname, find_by_nameは `==` のものを検索します。
 
+    # すべての地方公共団体を取得することも出来ます。
+    # LocalGovインスタンスの配列で、コード順に入っています。
+
+    all = local_gov_code.all
+    all.size = 1963
+    all.first.fullname  # '北海道'
+    all.last.fullname   # '沖縄県与那国町'
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
